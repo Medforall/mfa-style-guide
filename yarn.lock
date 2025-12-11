@@ -1320,84 +1320,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dvukovic/style-guide@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@dvukovic/style-guide@workspace:."
-  dependencies:
-    "@eslint-community/eslint-plugin-eslint-comments": "npm:4.5.0"
-    "@eslint/compat": "npm:^2.0.0"
-    "@next/eslint-plugin-next": "npm:16.0.7"
-    "@prettier/plugin-xml": "npm:3.4.2"
-    "@rimac-technology/eslint-plugin": "npm:1.5.0"
-    "@storybook/react": "npm:10.1.4"
-    "@stylistic/eslint-plugin": "npm:5.6.1"
-    "@types/eslint": "npm:9.6.1"
-    "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:24.10.1"
-    "@types/react": "npm:19.2.7"
-    "@typescript-eslint/parser": "npm:8.48.1"
-    "@vitest/eslint-plugin": "npm:1.5.1"
-    cspell: "npm:9.4.0"
-    eslint: "npm:9.39.1"
-    eslint-plugin-es-x: "npm:9.3.0"
-    eslint-plugin-import-x: "npm:4.16.1"
-    eslint-plugin-jest: "npm:29.2.1"
-    eslint-plugin-mobx: "npm:0.0.13"
-    eslint-plugin-n: "npm:17.23.1"
-    eslint-plugin-playwright: "npm:2.4.0"
-    eslint-plugin-promise: "npm:7.2.1"
-    eslint-plugin-react: "npm:7.37.5"
-    eslint-plugin-react-hooks: "npm:7.0.1"
-    eslint-plugin-security-node: "npm:1.1.4"
-    eslint-plugin-simple-import-sort: "npm:12.1.1"
-    eslint-plugin-sonarjs: "npm:3.0.5"
-    eslint-plugin-sort-destructure-keys: "npm:2.0.0"
-    eslint-plugin-sort-keys-fix: "npm:1.1.2"
-    eslint-plugin-storybook: "npm:10.1.4"
-    eslint-plugin-typescript-sort-keys: "npm:3.3.0"
-    eslint-plugin-unicorn: "npm:62.0.0"
-    eslint-plugin-unused-imports: "npm:4.3.0"
-    globals: "npm:16.5.0"
-    jest: "npm:30.2.0"
-    npm-package-json-lint: "npm:9.0.0"
-    prettier: "npm:3.7.4"
-    prettier-plugin-embed: "npm:0.5.0"
-    prettier-plugin-jsdoc: "npm:1.8.0"
-    prettier-plugin-packagejson: "npm:2.5.20"
-    prettier-plugin-prisma: "npm:5.0.0"
-    prettier-plugin-sh: "npm:0.18.0"
-    prettier-plugin-sql: "npm:0.19.2"
-    prettier-plugin-tailwindcss: "npm:0.7.2"
-    prettier-plugin-toml: "npm:2.0.6"
-    react: "npm:19.2.1"
-    release-it: "npm:19.0.6"
-    storybook: "npm:^10.1.4"
-    stylelint: "npm:16.26.1"
-    stylelint-no-unused-selectors: "npm:1.0.40"
-    stylelint-order: "npm:7.0.0"
-    typescript: "npm:5.9.3"
-    typescript-eslint: "npm:8.48.1"
-    vitest: "npm:^4.0.15"
-  peerDependencies:
-    cspell: 9
-    eslint: ^9
-    npm-package-json-lint: 9
-    prettier: 3
-    stylelint: 16
-  peerDependenciesMeta:
-    cspell:
-      optional: true
-    eslint:
-      optional: true
-    npm-package-json-lint:
-      optional: true
-    prettier:
-      optional: true
-    stylelint:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
 "@emnapi/core@npm:^1.4.3":
   version: 1.7.1
   resolution: "@emnapi/core@npm:1.7.1"
@@ -2629,6 +2551,84 @@ __metadata:
   checksum: 10c0/b0008cae4a54400c3abf587b8cc2474c6f528ee58969ce6cf9cb07a04006f80c73c85971d6be6544408318a2bc40108236a19a82aea0a6de95aae49533317374
   languageName: node
   linkType: hard
+
+"@medforall/style-guide@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@medforall/style-guide@workspace:."
+  dependencies:
+    "@eslint-community/eslint-plugin-eslint-comments": "npm:4.5.0"
+    "@eslint/compat": "npm:^2.0.0"
+    "@next/eslint-plugin-next": "npm:16.0.7"
+    "@prettier/plugin-xml": "npm:3.4.2"
+    "@rimac-technology/eslint-plugin": "npm:1.5.0"
+    "@storybook/react": "npm:10.1.4"
+    "@stylistic/eslint-plugin": "npm:5.6.1"
+    "@types/eslint": "npm:9.6.1"
+    "@types/jest": "npm:30.0.0"
+    "@types/node": "npm:24.10.1"
+    "@types/react": "npm:19.2.7"
+    "@typescript-eslint/parser": "npm:8.48.1"
+    "@vitest/eslint-plugin": "npm:1.5.1"
+    cspell: "npm:9.4.0"
+    eslint: "npm:9.39.1"
+    eslint-plugin-es-x: "npm:9.3.0"
+    eslint-plugin-import-x: "npm:4.16.1"
+    eslint-plugin-jest: "npm:29.2.1"
+    eslint-plugin-mobx: "npm:0.0.13"
+    eslint-plugin-n: "npm:17.23.1"
+    eslint-plugin-playwright: "npm:2.4.0"
+    eslint-plugin-promise: "npm:7.2.1"
+    eslint-plugin-react: "npm:7.37.5"
+    eslint-plugin-react-hooks: "npm:7.0.1"
+    eslint-plugin-security-node: "npm:1.1.4"
+    eslint-plugin-simple-import-sort: "npm:12.1.1"
+    eslint-plugin-sonarjs: "npm:3.0.5"
+    eslint-plugin-sort-destructure-keys: "npm:2.0.0"
+    eslint-plugin-sort-keys-fix: "npm:1.1.2"
+    eslint-plugin-storybook: "npm:10.1.4"
+    eslint-plugin-typescript-sort-keys: "npm:3.3.0"
+    eslint-plugin-unicorn: "npm:62.0.0"
+    eslint-plugin-unused-imports: "npm:4.3.0"
+    globals: "npm:16.5.0"
+    jest: "npm:30.2.0"
+    npm-package-json-lint: "npm:9.0.0"
+    prettier: "npm:3.7.4"
+    prettier-plugin-embed: "npm:0.5.0"
+    prettier-plugin-jsdoc: "npm:1.8.0"
+    prettier-plugin-packagejson: "npm:2.5.20"
+    prettier-plugin-prisma: "npm:5.0.0"
+    prettier-plugin-sh: "npm:0.18.0"
+    prettier-plugin-sql: "npm:0.19.2"
+    prettier-plugin-tailwindcss: "npm:0.7.2"
+    prettier-plugin-toml: "npm:2.0.6"
+    react: "npm:19.2.1"
+    release-it: "npm:19.0.6"
+    storybook: "npm:^10.1.4"
+    stylelint: "npm:16.26.1"
+    stylelint-no-unused-selectors: "npm:1.0.40"
+    stylelint-order: "npm:7.0.0"
+    typescript: "npm:5.9.3"
+    typescript-eslint: "npm:8.48.1"
+    vitest: "npm:^4.0.15"
+  peerDependencies:
+    cspell: 9
+    eslint: ^9
+    npm-package-json-lint: 9
+    prettier: 3
+    stylelint: 16
+  peerDependenciesMeta:
+    cspell:
+      optional: true
+    eslint:
+      optional: true
+    npm-package-json-lint:
+      optional: true
+    prettier:
+      optional: true
+    stylelint:
+      optional: true
+  languageName: unknown
+  linkType: soft
 
 "@napi-rs/wasm-runtime@npm:^0.2.11":
   version: 0.2.12
