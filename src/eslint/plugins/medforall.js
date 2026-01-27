@@ -1,15 +1,15 @@
 import { noCommentedOutCode } from "../rules/no-commented-out-code/no-commented-out-code.js"
 
 /** @type {import("@eslint/config-helpers").Config} */
-export const dvukovic = {
+export const medforall = {
     plugins: {
-        dvukovic: {
+        medforall: {
             rules: {
                 "no-commented-out-code": noCommentedOutCode,
             },
         },
     },
     rules: {
-        "dvukovic/no-commented-out-code": "error",
+        "medforall/no-commented-out-code": "error",
     },
 }

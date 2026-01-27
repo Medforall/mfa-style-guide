@@ -1,11 +1,11 @@
-# @dvukovic/style-guide
+# @medforall/style-guide
 
 Personal style guide with ESLint, Prettier, and other code quality tools.
 
 ## Installation
 
 ```bash
-yarn add -D @dvukovic/style-guide eslint prettier cspell stylelint
+yarn add -D @medforall/style-guide eslint prettier cspell stylelint
 ```
 
 ## ESLint Configuration
@@ -15,7 +15,7 @@ yarn add -D @dvukovic/style-guide eslint prettier cspell stylelint
 Create an `eslint.config.js` file in your project root:
 
 ```js
-import { customDefineConfig, core, typescript } from "@dvukovic/style-guide/eslint"
+import { customDefineConfig, core, typescript } from "@medforall/style-guide/eslint"
 
 export default customDefineConfig(["dist/**", "build/**"], [core(), typescript()])
 ```
@@ -41,7 +41,7 @@ Each config is a factory function that returns ESLint configuration:
 Each factory function accepts a `config` parameter to extend or override settings:
 
 ```js
-import { customDefineConfig, core, typescript } from "@dvukovic/style-guide/eslint"
+import { customDefineConfig, core, typescript } from "@medforall/style-guide/eslint"
 
 export default customDefineConfig(
     [],
@@ -91,7 +91,7 @@ import {
     jest,
     vitest,
     playwright,
-} from "@dvukovic/style-guide/eslint"
+} from "@medforall/style-guide/eslint"
 
 export default customDefineConfig(
     ["node_modules"],
@@ -115,7 +115,7 @@ export default customDefineConfig(
 ```js prettier.config.ts
 import type { Config } from "prettier"
 
-import core from "@dvukovic/style-guide/src/prettier/configs/core.js"
+import core from "@medforall/style-guide/src/prettier/configs/core.js"
 
 const config: Config = {
     ...core,
@@ -129,7 +129,7 @@ export default config
 ```js stylelint.config.js
 /** @type {import("stylelint").Config} */
 module.exports = {
-    extends: "@dvukovic/style-guide/src/stylelint/configs/core",
+    extends: "@medforall/style-guide/src/stylelint/configs/core",
     allowEmptyInput: true,
 }
 ```
@@ -149,7 +149,7 @@ module.exports = {
     dictionaryDefinitions: [
         {
             name: "shared",
-            path: "./node_modules/@dvukovic/style-guide/src/cspell/base.txt",
+            path: "./node_modules/@medforall/style-guide/src/cspell/base.txt",
         },
     ],
     useGitignore: true,

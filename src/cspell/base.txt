@@ -50,7 +50,7 @@ lcov
 testlog
 rgba
 classname
-dvukovic
+medforall
 sonarjs
 datasource
 dbgenerated

@@ -1,8 +1,8 @@
-import { dvukovic } from "../plugins/dvukovic.js"
 import { esX } from "../plugins/es-x.js"
 import { eslint } from "../plugins/eslint.js"
 import { eslintComments } from "../plugins/eslint-comments.js"
 import { importX } from "../plugins/import-x.js"
+import { medforall } from "../plugins/medforall.js"
 import { promise } from "../plugins/promise.js"
 import { rimac } from "../plugins/rimac.js"
 import { simpleImportSort } from "../plugins/simple-import-sort.js"
@@ -27,7 +27,7 @@ export const coreConfig = [
     stylistic,
     unicorn,
     unusedImports,
-    dvukovic,
+    medforall,
 ]
 
 /**
