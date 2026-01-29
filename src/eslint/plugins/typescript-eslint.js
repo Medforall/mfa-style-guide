@@ -150,6 +150,9 @@ export const typescriptEslint = {
             "error",
             {
                 ignoreConditionalTests: true,
+                ignorePrimitives: {
+                    string: true,
+                },
             },
         ],
         "@typescript-eslint/prefer-optional-chain": "error",
